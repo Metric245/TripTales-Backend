@@ -13,3 +13,12 @@ This backend is built with **Django** and uses **SQLite** as the database for de
 - CRUD operations for trips, activities, and participants
 - Modular Django structure (models, views, serializers)
 - Lightweight SQLite database for development
+
+## API Endpoints
+
+- /api/users/ - User and profile management
+- /api/trip-groups/ - Trip group CRUD operations
+- /api/diary-posts/ - Posts and feed management
+- /api/post-media/ - Media upload and management
+- /api/group-invites/ - Invitation system
+- /ws/chat/{group_id}/ - WebSocket chat endpoint
